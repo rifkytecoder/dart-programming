@@ -1,0 +1,15 @@
+DART TYPE SYSTEM
+type system adalah sistem logis yang terdiri dari seperangkat aturan yang menetapkan properti atau tipe
+ke berbagai konstruksi program komputer, seperti variabel, expression, fungsi, atau modul.
+Type system ini memformalkan atau memberikan standar kategori tersirat yang digunakan programmer untuk tipe data,
+struktur data, atau komponen lainnya.
+
+Dart menyebut type system-nya sebagai sound type system.
+Soundness ini berarti program Anda tidak akan pernah bisa memasuki keadaan di mana sebuah ekspresi mengevaluasi nilai
+yang tidak cocok dengan jenis tipenya.
+
+ sound type system ini, antara lain:
+ 1.Mengungkap bug terkait tipe pada saat compile time.
+ 2.Kode lebih mudah dibaca.
+ 3.Kode lebih mudah dikelola.
+ 4.Kompilasi ahead of time (AOT) yang lebih baik.

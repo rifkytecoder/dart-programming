@@ -1,0 +1,16 @@
+ASYNCHORONOUS vs Synchoronous
+
+Synchronous program, kode program dijalankan secara berurutan dari atas ke bawah.
+Artinya jika kita menuliskan dua baris kode maka baris kode kedua tidak bisa dieksekusi sebelum kode baris pertama selesai dieksekusi.
+
+Asynchronous program, jika kita menuliskan dua baris kode,
+kita dapat membuat baris kode kedua dieksekusi tanpa harus menunggu kode pada baris pertama selesai dieksekusi.
+
+Asynchronous memungkinkan suatu operasi bisa berjalan sembari menunggu operasi lainnya selesai.
+Umumnya kita memanfaatkan asynchronous pada operasi yang besar dan membutuhkan waktu lama,
+seperti mengambil data dari internet atau API, menyimpan data ke database, dan membaca data dari sebuah berkas.
+
+Terdapat tiga kondisi yang memungkinkan saat menerapkan objek Future, antara lain:
+[Uncompleted], ketika operasi asynchronous tertunda pada durasi waktu tertentu sehingga operasi tersebut mengembalikan nilai Future.
+[Completed with data], ketika operasi asynchronous berhasil berjalan, objek Future akan mengembalikan nilai dengan tipe data tertentu.
+[Completed with error], ketika operasi asynchronous berjalan dan mengalami kegagalan, objek Future akan mengembalikan nilai error.
